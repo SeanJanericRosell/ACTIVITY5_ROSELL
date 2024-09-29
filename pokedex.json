@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "name": "Bulbasaur",
+        "image": "images/bulbasaur.png",
+        "type": ["Grass", "Poison"],
+        "description": "A seed Pokémon. It can be seen napping in bright sunlight.",
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "speed": 45
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ivysaur",
+        "image": "images/ivysaur.png",
+        "type": ["Grass", "Poison"],
+        "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+        "stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "speed": 60
+        }
+    },
+    {
+        "id": 3,
+        "name": "Venusaur",
+        "image": "images/venusaur.png",
+        "type": ["Grass", "Poison"],
+        "description": "The flower on its back catches the sun's rays. The sunlight is converted into energy.",
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "speed": 80
+        }
+    },
+    {
+        "id": 4,
+        "name": "Charmander",
+        "image": "images/charmander.png",
+        "type": ["Fire"],
+        "description": "The flame that burns at the tip of its tail is an indication of its health.",
+        "stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "speed": 65
+        }
+    },
+    {
+        "id": 5,
+        "name": "Charmeleon",
+        "image": "images/charmeleon.png",
+        "type": ["Fire"],
+        "description": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+        "stats": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "speed": 80
+        }
+    },
+    {
+        "id": 6,
+        "name": "Charizard",
+        "image": "images/charizard.png",
+        "type": ["Fire", "Flying"],
+        "description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+        "stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "speed": 100
+        }
+    },
+    {
+        "id": 7,
+        "name": "Squirtle",
+        "image": "images/squirtle.png",
+        "type": ["Water"],
+        "description": "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+        "stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "speed": 43
+        }
+    },
+    {
+        "id": 8,
+        "name": "Wartortle",
+        "image": "images/wartortle.png",
+        "type": ["Water"],
+        "description": "It is said to live 10,000 years. Its furry tail is a symbol of longevity.",
+        "stats": {
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "speed": 58
+        }
+    },
+    {
+        "id": 9,
+        "name": "Blastoise",
+        "image": "images/blastoise.png",
+        "type": ["Water"],
+        "description": "A brutal Pokémon with pressurized water jets on its shell. They are used for both offense and defense.",
+        "stats": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "speed": 78
+        }
+    },
+    {
+        "id": 10,
+        "name": "Pidgey",
+        "image": "images/pidgey.png",
+        "type": ["Normal", "Flying"],
+        "description": "A small bird Pokémon. It often flaps its wings at high speed to fly, catching food.",
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "speed": 56
+        }
+    }
+]

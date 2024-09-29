@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Detail</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="pokemon-detail"></div>
+
+    <script>
+        $(document).ready(function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const pokemonId = urlParams.get('id');
+
+            $.getJSON('pokedex.json', function (data) {
+                const pokemon = data.find(p => p.id == pokemonId);
+                if (pokemon) {
+                    const detailHTML = `
+                        <h1>${pokemon.name}</h1>
+                        <img src="${pokemon.image}" alt="${pokemon.name}">
+                        <p>ID: ${pokemon.id}</p>
+                        <p>Description: ${pokemon.description}</p>
+                        <h2>Stats:</h2>
+                        <ul>
+                            <li>HP: ${pokemon.stats.hp}</li>
+                            <li>Attack: ${pokemon.stats.attack}</li>
+                            <li>Defense: ${pokemon.stats.defense}</li>
+                            <li>Speed: ${pokemon.stats.speed}</li>
+                        </ul>
+                    `;
+                    $('#pokemon-detail').html(detailHTML);
+                } else {
+                    $('#pokemon-detail').html('<p>Pokémon not found.</p>');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
